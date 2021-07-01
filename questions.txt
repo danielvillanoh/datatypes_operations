@@ -8,43 +8,47 @@ Please answer all of the following questions thoughtfully and completely.
 
 
 1a - What is the resulting type of two integers used together for an operation, like 5 + 4?
-
-
+The resulting type is integer.
 
 1b - Is there an exception to this rule, with a certain operator?
-
+The exception to this rule is true division.
 
 
 2a - What is the resulting type of an integer and a float used together for an operation, like -11.4 - 5?
-
+The resulting type will be float.
 
 
 2b - Is there an exception to this rule, with a certain operator?
-
-
+Floor division is the exception to this rule.
 
 3a - What is the resulting type of two floats used together for an operation, like 2.3 * .45?
-
-
+The resulting type of the two floats used together is a float.
 
 3b - Is there an exception to this rule, with a certain operator?
 
-
+The exception to this rule are integers.
 
 4 - What is string concatenation? How does it work?
 
+String concatenation a combination of Strings by addition.
 
 
 5 - What is string duplication? How does it work?
 
+String duplication is the copy of strings by using multiplication.
 
 
 6 - Can you combine strings and integers? What about strings and floats? What happens if you do?
 
+You can't combine strings and integers, and strings and floats. If you do, the TypeError pops up.
 
 
 7 - What does this tell you about how strings can interact with integers or floats?
 
+Strings can only interact with integers for duplication with multiplication , otherwise interacting with different uses
+will result inerrors.
 
 
 8 - Can you use one of the operators to determine if a number is even or odd?
+
+You can use module to find out if the number is even or odd.
